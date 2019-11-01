@@ -22,7 +22,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: yarn install, build, and test
       run: |
-        yarn i
+        yarn
         yarn run build --if-present
         yarn test --coverage --watchAll=false
       env:
