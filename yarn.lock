@@ -8257,10 +8257,10 @@ react-scripts@3.2.0:
   optionalDependencies:
     fsevents "2.0.7"
 
-react-use@^13.3.0:
-  version "13.3.0"
-  resolved "https://registry.yarnpkg.com/react-use/-/react-use-13.3.0.tgz#266423f79024606f7639de4c375c707b0763a68a"
-  integrity sha512-HXKfMVF+63Vwihnp5X82lHjYQByA4DetnfqzfCLk7UYJ6dM37+i8Gy33/SFIrnreP/0LBJ0nGzCYOPqjijYRbA==
+react-use@^13.6.2:
+  version "13.6.2"
+  resolved "https://registry.yarnpkg.com/react-use/-/react-use-13.6.2.tgz#2d5f0aeb90e06c010ca79a8023f062b7c6b5c6fa"
+  integrity sha512-4FfI0z0/Ha7yeR4/jh+eeqxXfg1znl56aXHIABqWzvYB4kmM6gR0vBrpFkBeQT9M1G0fJlmqK0nNEI+d/8VvnQ==
   dependencies:
     copy-to-clipboard "^3.2.0"
     nano-css "^5.2.1"
