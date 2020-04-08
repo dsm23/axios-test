@@ -9772,10 +9772,10 @@ react-scripts@3.4.1:
   optionalDependencies:
     fsevents "2.1.2"
 
-react-use@^13.27.1:
-  version "13.27.1"
-  resolved "https://registry.yarnpkg.com/react-use/-/react-use-13.27.1.tgz#e2ae2b708dafc7893c4772628801589aab9de370"
-  integrity sha512-bAwdqDMXs5lovEanXnL1izledfrPEUUv1afoTVB59eUiYcDyKul+M/dT/2WcgHjoY/R6QlrTcZoW4R7ifwvBfw==
+react-use@^14.1.0:
+  version "14.1.0"
+  resolved "https://registry.yarnpkg.com/react-use/-/react-use-14.1.0.tgz#62a5d2d5b5af29b753acaa690207981f8e434dde"
+  integrity sha512-ps4r2mbwoFxaWaAuKdv8Ow7ygHGtglwshuHCMxRz0SGJqUo/k4Cg1W41WgAEVaXm0XMYyrSch9nOp5x7QylMDQ==
   dependencies:
     "@types/js-cookie" "2.2.5"
     "@xobotyi/scrollbar-width" "1.9.5"
