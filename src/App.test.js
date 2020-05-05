@@ -18,15 +18,15 @@ it("axios mock success", async () => {
 
   const objResponse = {
     data: {
-      david: "test"
-    }
+      david: "test",
+    },
   };
 
   mock.onGet(API).reply(200, objResponse);
 
   const { container, getByText } = render(<App />);
 
-  await waitForElementToBeRemoved(() => getByText("loading..."));
+  await waitForElementToBeRemoved(getByText("loading..."));
 
   const selector = container.querySelector("pre");
 
