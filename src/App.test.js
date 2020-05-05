@@ -38,11 +38,10 @@ it("axios mock failure", async () => {
 
   mock.onGet(API).reply(500);
 
-  const { debug, container, getByText } = render(<App />);
+  const { container, getByText } = render(<App />);
 
   await waitForElementToBeRemoved(() => getByText("loading..."));
 
-  debug();
   const selector = container.querySelector("div");
 
   expect(selector.textContent).toBe("error...");
