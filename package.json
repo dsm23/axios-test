@@ -31,7 +31,7 @@
     ]
   },
   "devDependencies": {
-    "@testing-library/react": "^10.2.1",
+    "@testing-library/react": "^10.4.4",
     "axios-mock-adapter": "^1.18.1",
     "jest-environment-jsdom-sixteen": "^1.0.3"
   }
